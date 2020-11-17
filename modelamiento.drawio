@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-17T12:56:17.300Z" agent="5.0 (Windows)" etag="SRURVM6cPO38oqX9TjpF" version="13.9.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-17T13:11:27.460Z" agent="5.0 (Windows)" etag="uN5mYkhRMwvqXC8StDSv" version="13.9.9" type="github">
   <diagram id="xpvj0pbj2Anr4bd4EY7O" name="Page-1">
     <mxGraphModel dx="1021" dy="498" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -159,6 +159,27 @@
         </mxCell>
         <mxCell id="9r-fHAgfjosAmpNAqf8q-71" value="nombre_depto VARCHAR(100) " style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="9r-fHAgfjosAmpNAqf8q-70">
           <mxGeometry y="56" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9r-fHAgfjosAmpNAqf8q-73" value="" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=1 2;fontSize=14;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="256" y="723" as="sourcePoint" />
+            <mxPoint x="296" y="723" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9r-fHAgfjosAmpNAqf8q-74" value="N" style="resizable=0;html=1;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="9r-fHAgfjosAmpNAqf8q-73">
+          <mxGeometry x="1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9r-fHAgfjosAmpNAqf8q-75" value="" style="endArrow=none;html=1;rounded=0;fontSize=14;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="710" as="sourcePoint" />
+            <mxPoint x="530" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9r-fHAgfjosAmpNAqf8q-76" value="M" style="resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="9r-fHAgfjosAmpNAqf8q-75">
+          <mxGeometry x="-1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9r-fHAgfjosAmpNAqf8q-77" value="N" style="resizable=0;html=1;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="9r-fHAgfjosAmpNAqf8q-75">
+          <mxGeometry x="1" relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
