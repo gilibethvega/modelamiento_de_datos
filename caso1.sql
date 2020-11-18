@@ -5,17 +5,21 @@ CREATE DATABASE empresa_caso1;
 
 CREATE TABLE departamento(
   id SERIAL,
-  nombre_depto VARCHAR(100)
+  nombre_depto VARCHAR(100),
+  PRIMARY KEY (id)
 );
 CREATE TABLE trabajadores(
   nombre VARCHAR(50) NOT NULL,
-  rut VARCHAR(10) PRIMARY KEY,
+  rut VARCHAR(10),
   direccion VARCHAR(250),
-  id_departamento INT REFERENCES departamento(id)
+  id_departamento INT REFERENCES departamento(id),
+  PRIMARY KEY (rut)
 );
 CREATE TABLE liquidaciones(
+  id SERIAL,
   rut_trabajador VARCHAR(10) REFERENCES trabajadores(rut),
-  link_drive VARCHAR(500)
+  link_drive VARCHAR(500),
+  PRIMARY KEY (id)
 );
 -- Agregamos datos para probar el modelo
 INSERT INTO departamento(nombre_depto) VALUES ('Finanzas');
