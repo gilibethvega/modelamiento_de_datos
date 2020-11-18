@@ -1,10 +1,10 @@
 --Se crean database del Caso 1
 CREATE DATABASE empresa_caso1;
 \c empresa_caso1
---Se crean tablas del Caso 1 según modelo físico
+--Se crean tablas del Caso 1 según modelo lógico
 
 CREATE TABLE departamento(
-  id SERIAL PRIMARY KEY,
+  id SERIAL,
   nombre_depto VARCHAR(100)
 );
 CREATE TABLE trabajadores(
